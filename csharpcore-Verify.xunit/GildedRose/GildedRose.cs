@@ -14,6 +14,7 @@ namespace GildedRoseKata
         {
             for (var i = 0; i < Items.Count; i++)
             {
+
                 if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
                 {
                     if (Items[i].Quality > 0)
@@ -21,6 +22,11 @@ namespace GildedRoseKata
                         if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
                         {
                             Items[i].Quality = Items[i].Quality - 1;
+
+                            if (Items[i].Quality > 0 && Items[i].Name.Contains("Conjured", System.StringComparison.InvariantCultureIgnoreCase))
+                            {
+                                Items[i].Quality -= 1;
+                            }
                         }
                     }
                 }
@@ -62,9 +68,10 @@ namespace GildedRoseKata
                     {
                         if (Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
                         {
-                            if (Items[i].Quality > 0)
+                            if (Items[i].Quality > 0 && Items[i].Name != "Sulfuras, Hand of Ragnaros")
                             {
-                                if (Items[i].Name != "Sulfuras, Hand of Ragnaros")
+                                Items[i].Quality = Items[i].Quality - 1;
+                                if (Items[i].Quality > 0 && Items[i].Name.Contains("Conjured", System.StringComparison.InvariantCultureIgnoreCase))
                                 {
                                     Items[i].Quality = Items[i].Quality - 1;
                                 }

@@ -10,10 +10,7 @@ namespace GildedRoseTests.ItemTests
         [Fact]
         public void ItemUpdateQuality()
         {
-            var list = itemFake
-                .RuleFor(x => x.Name, fake => "Sulfuras, Hand of Ragnaros")
-                .RuleFor(x => x.Quality, fake => 80)
-                .Generate(1);
+            var list = legendaryFake.Generate(1);
             var expectedQuality = list[0].Quality;
 
             _target = new GildedRose(list);
@@ -25,10 +22,7 @@ namespace GildedRoseTests.ItemTests
         [Fact]
         public void ItemUpdateSellIn()
         {
-            var list = itemFake
-                .RuleFor(x => x.Name, fake => "Sulfuras, Hand of Ragnaros")
-                .RuleFor(x => x.Quality, fake => 80)
-                .Generate(1);
+            var list = legendaryFake.Generate(1);
             var expectedSellin = list[0].SellIn;
 
             _target = new GildedRose(list);
@@ -40,10 +34,7 @@ namespace GildedRoseTests.ItemTests
         [Fact]
         public void ItemUpdateQuality_PastSellin()
         {
-            var list = itemFake
-                .RuleFor(x => x.Name, fake => "Sulfuras, Hand of Ragnaros")
-                .RuleFor(x => x.Quality, fake => 80)
-                .RuleFor(x => x.SellIn, fake => 0).Generate(1);
+            var list = legendaryFake.RuleFor(x => x.SellIn, fake => 0).Generate(1);
             var expectedQuality = list[0].Quality;
 
             _target = new GildedRose(list);
