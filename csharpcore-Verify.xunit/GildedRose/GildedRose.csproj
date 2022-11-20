@@ -5,13 +5,5 @@
     <TargetFramework>net6.0</TargetFramework>
     <StartupObject>GildedRoseKata.Program</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="FakeItEasy" Version="7.3.1" />
-    <PackageReference Include="FakeItEasy.Analyzer.CSharp" Version="6.1.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-
+  
 </Project>
