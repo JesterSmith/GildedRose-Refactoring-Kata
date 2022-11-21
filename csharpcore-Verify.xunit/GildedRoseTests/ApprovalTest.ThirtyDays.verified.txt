@@ -61,7 +61,7 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 11, 24
 Backstage passes to a TAFKAL80ETC concert, 6, 50
 Backstage passes to a TAFKAL80ETC concert, 1, 50
-Conjured Mana Cake, -1, 0
+Conjured Mana Cake, -1, -1
 Conjured Health Potion, 1, 12
 
 -------- day 5 --------
@@ -71,10 +71,10 @@ Aged Brie, -3, 8
 Elixir of the Mongoose, 0, 2
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 10, 25
+Backstage passes to a TAFKAL80ETC concert, 10, 26
 Backstage passes to a TAFKAL80ETC concert, 5, 50
 Backstage passes to a TAFKAL80ETC concert, 0, 50
-Conjured Mana Cake, -2, 0
+Conjured Mana Cake, -2, -2
 Conjured Health Potion, 0, 10
 
 -------- day 6 --------
@@ -84,10 +84,10 @@ Aged Brie, -4, 10
 Elixir of the Mongoose, -1, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 9, 27
+Backstage passes to a TAFKAL80ETC concert, 9, 28
 Backstage passes to a TAFKAL80ETC concert, 4, 50
 Backstage passes to a TAFKAL80ETC concert, -1, 0
-Conjured Mana Cake, -3, 0
+Conjured Mana Cake, -3, -3
 Conjured Health Potion, -1, 6
 
 -------- day 7 --------
@@ -97,10 +97,10 @@ Aged Brie, -5, 12
 Elixir of the Mongoose, -2, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 8, 29
+Backstage passes to a TAFKAL80ETC concert, 8, 30
 Backstage passes to a TAFKAL80ETC concert, 3, 50
 Backstage passes to a TAFKAL80ETC concert, -2, 0
-Conjured Mana Cake, -4, 0
+Conjured Mana Cake, -4, -4
 Conjured Health Potion, -2, 2
 
 -------- day 8 --------
@@ -110,11 +110,11 @@ Aged Brie, -6, 14
 Elixir of the Mongoose, -3, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 7, 31
+Backstage passes to a TAFKAL80ETC concert, 7, 32
 Backstage passes to a TAFKAL80ETC concert, 2, 50
 Backstage passes to a TAFKAL80ETC concert, -3, 0
-Conjured Mana Cake, -5, 0
-Conjured Health Potion, -3, 0
+Conjured Mana Cake, -5, -5
+Conjured Health Potion, -3, -1
 
 -------- day 9 --------
 name, sellIn, quality
@@ -123,11 +123,11 @@ Aged Brie, -7, 16
 Elixir of the Mongoose, -4, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 6, 33
+Backstage passes to a TAFKAL80ETC concert, 6, 34
 Backstage passes to a TAFKAL80ETC concert, 1, 50
 Backstage passes to a TAFKAL80ETC concert, -4, 0
-Conjured Mana Cake, -6, 0
-Conjured Health Potion, -4, 0
+Conjured Mana Cake, -6, -6
+Conjured Health Potion, -4, -2
 
 -------- day 10 --------
 name, sellIn, quality
@@ -136,11 +136,11 @@ Aged Brie, -8, 18
 Elixir of the Mongoose, -5, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 5, 35
+Backstage passes to a TAFKAL80ETC concert, 5, 37
 Backstage passes to a TAFKAL80ETC concert, 0, 50
 Backstage passes to a TAFKAL80ETC concert, -5, 0
-Conjured Mana Cake, -7, 0
-Conjured Health Potion, -5, 0
+Conjured Mana Cake, -7, -7
+Conjured Health Potion, -5, -3
 
 -------- day 11 --------
 name, sellIn, quality
@@ -149,11 +149,11 @@ Aged Brie, -9, 20
 Elixir of the Mongoose, -6, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 4, 38
+Backstage passes to a TAFKAL80ETC concert, 4, 40
 Backstage passes to a TAFKAL80ETC concert, -1, 0
 Backstage passes to a TAFKAL80ETC concert, -6, 0
-Conjured Mana Cake, -8, 0
-Conjured Health Potion, -6, 0
+Conjured Mana Cake, -8, -8
+Conjured Health Potion, -6, -4
 
 -------- day 12 --------
 name, sellIn, quality
@@ -162,11 +162,11 @@ Aged Brie, -10, 22
 Elixir of the Mongoose, -7, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 3, 41
+Backstage passes to a TAFKAL80ETC concert, 3, 43
 Backstage passes to a TAFKAL80ETC concert, -2, 0
 Backstage passes to a TAFKAL80ETC concert, -7, 0
-Conjured Mana Cake, -9, 0
-Conjured Health Potion, -7, 0
+Conjured Mana Cake, -9, -9
+Conjured Health Potion, -7, -5
 
 -------- day 13 --------
 name, sellIn, quality
@@ -175,11 +175,11 @@ Aged Brie, -11, 24
 Elixir of the Mongoose, -8, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 2, 44
+Backstage passes to a TAFKAL80ETC concert, 2, 46
 Backstage passes to a TAFKAL80ETC concert, -3, 0
 Backstage passes to a TAFKAL80ETC concert, -8, 0
-Conjured Mana Cake, -10, 0
-Conjured Health Potion, -8, 0
+Conjured Mana Cake, -10, -10
+Conjured Health Potion, -8, -6
 
 -------- day 14 --------
 name, sellIn, quality
@@ -188,11 +188,11 @@ Aged Brie, -12, 26
 Elixir of the Mongoose, -9, 0
 Sulfuras, Hand of Ragnaros, 0, 80
 Sulfuras, Hand of Ragnaros, -1, 80
-Backstage passes to a TAFKAL80ETC concert, 1, 47
+Backstage passes to a TAFKAL80ETC concert, 1, 49
 Backstage passes to a TAFKAL80ETC concert, -4, 0
 Backstage passes to a TAFKAL80ETC concert, -9, 0
-Conjured Mana Cake, -11, 0
-Conjured Health Potion, -9, 0
+Conjured Mana Cake, -11, -11
+Conjured Health Potion, -9, -7
 
 -------- day 15 --------
 name, sellIn, quality
@@ -204,8 +204,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, 0, 50
 Backstage passes to a TAFKAL80ETC concert, -5, 0
 Backstage passes to a TAFKAL80ETC concert, -10, 0
-Conjured Mana Cake, -12, 0
-Conjured Health Potion, -10, 0
+Conjured Mana Cake, -12, -12
+Conjured Health Potion, -10, -8
 
 -------- day 16 --------
 name, sellIn, quality
@@ -217,8 +217,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -1, 0
 Backstage passes to a TAFKAL80ETC concert, -6, 0
 Backstage passes to a TAFKAL80ETC concert, -11, 0
-Conjured Mana Cake, -13, 0
-Conjured Health Potion, -11, 0
+Conjured Mana Cake, -13, -13
+Conjured Health Potion, -11, -9
 
 -------- day 17 --------
 name, sellIn, quality
@@ -230,8 +230,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -2, 0
 Backstage passes to a TAFKAL80ETC concert, -7, 0
 Backstage passes to a TAFKAL80ETC concert, -12, 0
-Conjured Mana Cake, -14, 0
-Conjured Health Potion, -12, 0
+Conjured Mana Cake, -14, -14
+Conjured Health Potion, -12, -10
 
 -------- day 18 --------
 name, sellIn, quality
@@ -243,8 +243,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -3, 0
 Backstage passes to a TAFKAL80ETC concert, -8, 0
 Backstage passes to a TAFKAL80ETC concert, -13, 0
-Conjured Mana Cake, -15, 0
-Conjured Health Potion, -13, 0
+Conjured Mana Cake, -15, -15
+Conjured Health Potion, -13, -11
 
 -------- day 19 --------
 name, sellIn, quality
@@ -256,8 +256,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -4, 0
 Backstage passes to a TAFKAL80ETC concert, -9, 0
 Backstage passes to a TAFKAL80ETC concert, -14, 0
-Conjured Mana Cake, -16, 0
-Conjured Health Potion, -14, 0
+Conjured Mana Cake, -16, -16
+Conjured Health Potion, -14, -12
 
 -------- day 20 --------
 name, sellIn, quality
@@ -269,8 +269,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -5, 0
 Backstage passes to a TAFKAL80ETC concert, -10, 0
 Backstage passes to a TAFKAL80ETC concert, -15, 0
-Conjured Mana Cake, -17, 0
-Conjured Health Potion, -15, 0
+Conjured Mana Cake, -17, -17
+Conjured Health Potion, -15, -13
 
 -------- day 21 --------
 name, sellIn, quality
@@ -282,8 +282,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -6, 0
 Backstage passes to a TAFKAL80ETC concert, -11, 0
 Backstage passes to a TAFKAL80ETC concert, -16, 0
-Conjured Mana Cake, -18, 0
-Conjured Health Potion, -16, 0
+Conjured Mana Cake, -18, -18
+Conjured Health Potion, -16, -14
 
 -------- day 22 --------
 name, sellIn, quality
@@ -295,8 +295,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -7, 0
 Backstage passes to a TAFKAL80ETC concert, -12, 0
 Backstage passes to a TAFKAL80ETC concert, -17, 0
-Conjured Mana Cake, -19, 0
-Conjured Health Potion, -17, 0
+Conjured Mana Cake, -19, -19
+Conjured Health Potion, -17, -15
 
 -------- day 23 --------
 name, sellIn, quality
@@ -308,8 +308,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -8, 0
 Backstage passes to a TAFKAL80ETC concert, -13, 0
 Backstage passes to a TAFKAL80ETC concert, -18, 0
-Conjured Mana Cake, -20, 0
-Conjured Health Potion, -18, 0
+Conjured Mana Cake, -20, -20
+Conjured Health Potion, -18, -16
 
 -------- day 24 --------
 name, sellIn, quality
@@ -321,8 +321,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -9, 0
 Backstage passes to a TAFKAL80ETC concert, -14, 0
 Backstage passes to a TAFKAL80ETC concert, -19, 0
-Conjured Mana Cake, -21, 0
-Conjured Health Potion, -19, 0
+Conjured Mana Cake, -21, -21
+Conjured Health Potion, -19, -17
 
 -------- day 25 --------
 name, sellIn, quality
@@ -334,8 +334,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -10, 0
 Backstage passes to a TAFKAL80ETC concert, -15, 0
 Backstage passes to a TAFKAL80ETC concert, -20, 0
-Conjured Mana Cake, -22, 0
-Conjured Health Potion, -20, 0
+Conjured Mana Cake, -22, -22
+Conjured Health Potion, -20, -18
 
 -------- day 26 --------
 name, sellIn, quality
@@ -347,8 +347,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -11, 0
 Backstage passes to a TAFKAL80ETC concert, -16, 0
 Backstage passes to a TAFKAL80ETC concert, -21, 0
-Conjured Mana Cake, -23, 0
-Conjured Health Potion, -21, 0
+Conjured Mana Cake, -23, -23
+Conjured Health Potion, -21, -19
 
 -------- day 27 --------
 name, sellIn, quality
@@ -360,8 +360,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -12, 0
 Backstage passes to a TAFKAL80ETC concert, -17, 0
 Backstage passes to a TAFKAL80ETC concert, -22, 0
-Conjured Mana Cake, -24, 0
-Conjured Health Potion, -22, 0
+Conjured Mana Cake, -24, -24
+Conjured Health Potion, -22, -20
 
 -------- day 28 --------
 name, sellIn, quality
@@ -373,8 +373,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -13, 0
 Backstage passes to a TAFKAL80ETC concert, -18, 0
 Backstage passes to a TAFKAL80ETC concert, -23, 0
-Conjured Mana Cake, -25, 0
-Conjured Health Potion, -23, 0
+Conjured Mana Cake, -25, -25
+Conjured Health Potion, -23, -21
 
 -------- day 29 --------
 name, sellIn, quality
@@ -386,8 +386,8 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -14, 0
 Backstage passes to a TAFKAL80ETC concert, -19, 0
 Backstage passes to a TAFKAL80ETC concert, -24, 0
-Conjured Mana Cake, -26, 0
-Conjured Health Potion, -24, 0
+Conjured Mana Cake, -26, -26
+Conjured Health Potion, -24, -22
 
 -------- day 30 --------
 name, sellIn, quality
@@ -399,6 +399,6 @@ Sulfuras, Hand of Ragnaros, -1, 80
 Backstage passes to a TAFKAL80ETC concert, -15, 0
 Backstage passes to a TAFKAL80ETC concert, -20, 0
 Backstage passes to a TAFKAL80ETC concert, -25, 0
-Conjured Mana Cake, -27, 0
-Conjured Health Potion, -25, 0
+Conjured Mana Cake, -27, -27
+Conjured Health Potion, -25, -23
 

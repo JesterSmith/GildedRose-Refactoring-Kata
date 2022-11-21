@@ -1,46 +1,41 @@
-﻿using GildedRoseKata;
-using Xunit;
+﻿using Xunit;
 
 namespace GildedRoseTests.ItemTests
 {
     public class LegendaryItemTests : TestingBase
     {
-        private GildedRose _target;
 
         [Fact]
         public void ItemUpdateQuality()
         {
-            var list = legendaryFake.Generate(1);
-            var expectedQuality = list[0].Quality;
+            var item = legendaryFake.Generate();
+            var expectedQuality = item.Quality;
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            item.UpdateItem();
 
-            Assert.Equal(expectedQuality, list[0].Quality);
+            Assert.Equal(expectedQuality, item.Quality);
         }
 
         [Fact]
         public void ItemUpdateSellIn()
         {
-            var list = legendaryFake.Generate(1);
-            var expectedSellin = list[0].SellIn;
+            var item = legendaryFake.Generate();
+            var expectedSellin = item.SellIn;
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            item.UpdateItem();
 
-            Assert.Equal(expectedSellin, list[0].SellIn);
+            Assert.Equal(expectedSellin, item.SellIn);
         }
 
         [Fact]
         public void ItemUpdateQuality_PastSellin()
         {
-            var list = legendaryFake.RuleFor(x => x.SellIn, fake => 0).Generate(1);
-            var expectedQuality = list[0].Quality;
+            var item = legendaryFake.RuleFor(x => x.SellIn, fake => 0).Generate();
+            var expectedQuality = item.Quality;
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            item.UpdateItem();
 
-            Assert.Equal(expectedQuality, list[0].Quality);
+            Assert.Equal(expectedQuality, item.Quality);
         }
 
     }

@@ -1,64 +1,55 @@
-﻿using GildedRoseKata;
-using Xunit;
+﻿using Xunit;
 
 namespace GildedRoseTests.ItemTests
 {
-    //new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6},
-    //            new Item { Name = "Conjured Health Potion", SellIn = 5, Quality = 20 }
-
     public class ConjuredItemsTest : TestingBase
     {
-        private GildedRose _target;
-
         [Fact]
         public void ItemUpdateQuality()
         {
-            var list = conjuredFake.Generate(1);
-            var expectedQuality = list[0].Quality - 2;
+            var item = conjuredFake.Generate();
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            var expectedQuality = item.Quality - 2;
 
-            Assert.Equal(expectedQuality, list[0].Quality);
+            item.UpdateItem();
+
+            Assert.Equal(expectedQuality, item.Quality);
         }
 
         [Fact]
         public void ItemUpdateSellIn()
         {
-            var list = conjuredFake.Generate(1);
-            var expectedSellin = list[0].SellIn - 1;
+            var item = conjuredFake.Generate();
+            var expectedSellin = item.SellIn - 1;
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            item.UpdateItem();
 
-            Assert.Equal(expectedSellin, list[0].SellIn);
+            Assert.Equal(expectedSellin, item.SellIn);
         }
 
         [Fact]
         public void ItemUpdateQuality_PastSellin()
         {
-            var list = conjuredFake.RuleFor(x => x.SellIn, 0).Generate(1);
-            var expectedQuality = list[0].Quality - 4;
+            var item = conjuredFake.RuleFor(x => x.SellIn, 0).Generate();
+            var expectedQuality = item.Quality - 4;
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            item.UpdateItem();
 
-            Assert.Equal(expectedQuality, list[0].Quality);
+            Assert.Equal(expectedQuality, item.Quality);
         }
 
         [Fact]
         public void ItemUpdateQuality_ZeroIsFloor()
         {
-            var list = conjuredFake
+            var item = conjuredFake
                 .RuleFor(x => x.SellIn, 2)
-                .RuleFor(x => x.Quality, 1)
-                .Generate(1);
+                .RuleFor(x => x.Quality, 0)
+                .Generate();
             var expectedQuality = 0;
 
-            _target = new GildedRose(list);
-            _target.UpdateQuality();
+            item.UpdateItem();
 
-            Assert.Equal(expectedQuality, list[0].Quality);
+            Assert.Equal(expectedQuality, item.Quality);
         }
 
     }

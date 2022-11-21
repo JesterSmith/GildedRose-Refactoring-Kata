@@ -1,30 +1,36 @@
 ﻿using AutoBogus;
 using Bogus;
-using GildedRoseKata;
+using GildedRoseKata.Models;
+using System.Collections.Generic;
 
 namespace GildedRoseTests
 {
     public class TestingBase
     {
-        public Faker<Item> itemFake;
-        public Faker<Item> legendaryFake;
-        public Faker<Item> conjuredFake;
-
+        public Faker<NormalItem> normalItemFake;
+        public Faker<LegendaryItem> legendaryFake;
+        public Faker<ConjuredItem> conjuredFake;
+        public Faker<BackstagePass> backstagePassFake;
+        public Faker<AgedItem> agedItemFake;
+        public List<Item> itemsListFake;
 
         public TestingBase()
         {
-            itemFake = new AutoFaker<Item>()
+            normalItemFake = new AutoFaker<NormalItem>()
                 .RuleFor(x => x.Quality, fake => fake.Random.Int(10, 20))
                 .RuleFor(x => x.SellIn, fake => fake.Random.Int(10, 20));
 
-            legendaryFake = new AutoFaker<Item>()
+            legendaryFake = new AutoFaker<LegendaryItem>()
                 .RuleFor(x => x.Name, fake => "Sulfuras, Hand of Ragnaros")
                 .RuleFor(x => x.Quality, fake => 80);
 
-            conjuredFake = new Faker<Item>()
+            conjuredFake = new AutoFaker<ConjuredItem>()
                 .RuleFor(x => x.Name, fake => "Conjured Mana Cake")
                 .RuleFor(x => x.SellIn, fake => 10)
                 .RuleFor(x => x.Quality, fake => 20);
+
+            backstagePassFake = new AutoFaker<BackstagePass>();
+            agedItemFake = new AutoFaker<AgedItem>();
         }
     }
 }
