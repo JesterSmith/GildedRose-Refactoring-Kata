@@ -5,14 +5,17 @@ namespace GildedRoseKata
     public class GildedRose
     {
         IList<Item> Items;
+        int ItemsLength;
         public GildedRose(IList<Item> Items)
         {
             this.Items = Items;
+            this.ItemsLength = Items.Count;
+
         }
 
         public void UpdateQuality()
         {
-            for (var i = 0; i < Items.Count; i++)
+            for (var i = 0; i < ItemsLength; i++)
             {
 
                 if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
